@@ -18,7 +18,7 @@ You can also set [other postgres environment variables](http://www.postgresql.or
 
 
 ```
-docker run --rm -e CLOUDFILES_CONTAINER=pgbackup -e CLOUDFILES_REGION=DFW -e CLOUDFILES_USERNAME=yourusername -e CLOUDFILES_APIKEY=12345deadbeef12345  -e PGHOST=postgres -e PGPASSWORD=whatever --link postgres:postgres realgeeks/pgbackup
+docker run --rm -e CLOUDFILES_CONTAINER=pgbackup -e CLOUDFILES_REGION=DFW -e CLOUDFILES_USERNAME=yourusername -e CLOUDFILES_APIKEY=12345deadbeef12345  -e PGHOST=postgres -e PGPASSWORD=whatever --link postgres:postgres realgeeks/pgcfbackup
 ```
 
 
