@@ -1,6 +1,10 @@
 # pgcfbackup
 
-A small dockerized script to dump all databases from postgres and then upload to cloudfiles
+A small dockerized script to dump all databases from postgres and then upload to cloudfiles.
+
+## Versions
+
+This image installs the beta postgres 9.5 client
 
 
 ## Configuration
